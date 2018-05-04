@@ -29,8 +29,9 @@
 
 #ifndef JPEG2000_VSIL_IO_H
 #define JPEG2000_VSIL_IO_H
- 
+
 #include <jasper/jasper.h>
+#define uchar unsigned char
 
 jas_stream_t *JPEG2000_VSIL_fopen(const char *filename, const char *mode);
 
